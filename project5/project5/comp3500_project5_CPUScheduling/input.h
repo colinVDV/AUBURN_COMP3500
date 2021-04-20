@@ -7,12 +7,14 @@
 
 typedef unsigned int u_int;
 
+//struct for the task
 typedef struct task {
 	u_int pid;
 	u_int arrival_time;
 	u_int burst_time;
 } task_t;
 
+//struct for stat
 typedef struct stat {
 	int waiting_time;
 	int turnaround_time;
