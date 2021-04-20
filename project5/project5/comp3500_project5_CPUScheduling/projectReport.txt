@@ -1,6 +1,6 @@
 
 7.1 (Project description)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	1. How did you separate scheduling mechanism from scheduling policies?
 		- The scheduling policy picker is located in the input.c file, all of the mechanisms were in the scheduler.c file.
 	2. How did you implement the three scheduling algorithms?
@@ -13,12 +13,11 @@
 		- Turnaround time = final execution time - arrival time.
 	6. How did you implement the command-line parser?
 		- It was implemented in the input.c file. It takes the input from the user and then sends it through a few "if" statements to decide what needs to be done.
-___________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 
 7.2 (Generality and error checking)
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	1. How general is your solution?
 		- My solution is very general. It should be possible to throw any file into the syste. As long as the file is in the exact same format, it should come up with a solution.
 	2. How easy would it be to add a new scheduling policy into your schedule?
@@ -26,12 +25,12 @@ ________________________________________________________________________________
 			and then add a new "if" statement in the policy picker in input.c for it to be completed.
 	3. Does your program offer input error checking?
 		- Yes, it does. A user can't put in a non existent policy, a file that can not be read, or an input that just does not make sense.
-____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 
 
 
 7.3 (Miscellaneous factors)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	1. Is your code elegant?
 		- I find my code to be quite elegant. Definitely something I am proud of.
 	2. How innovative is your solution? Did you try any ideas not suggested here?
