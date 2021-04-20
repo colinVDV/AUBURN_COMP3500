@@ -1,4 +1,5 @@
-#see README for a manual compilation process
+#Makefile
+
 CC = gcc
 CFLAGS = -g
 OBJ = displayStat.o scheduler.o
