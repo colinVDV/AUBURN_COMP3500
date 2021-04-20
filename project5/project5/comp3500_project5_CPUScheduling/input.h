@@ -1,6 +1,6 @@
-/*
- * Header file for input.c
-*/
+/*******************************************
+ Header file for input.c
+********************************************/
 
 #ifndef _INPUT_H_
 #define _INPUT_H_
