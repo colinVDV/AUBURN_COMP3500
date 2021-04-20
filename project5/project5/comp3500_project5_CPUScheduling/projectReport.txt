@@ -36,4 +36,6 @@
 	2. How innovative is your solution? Did you try any ideas not suggested here?
 		- I don't think my code is very innovative, but it is very compact and runs fast.
 	3. Did you document all outside sources?
-		- I've only used the powerpoints from our class.
+		- I've only used the powerpoints from our class and I've read piazza to code the project.
+		- I did use the following link to freshen up on the waiting time, response time, etc....
+			https://afteracademy.com/blog/what-is-burst-arrival-exit-response-waiting-turnaround-time-and-throughput#:~:text=There%20is%20a%20difference%20between,process%20in%20the%20ready%20state.
