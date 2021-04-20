@@ -25,9 +25,9 @@ int main(int argc, char *argv[]) {
     stats stats_array[MAX_TASK_NUM];
     int finish_array[MAX_TASK_NUM];
 
-    //Input management
+    //Managing input
     if (argc == 1 || argc > 4) {
-        //Giving the user instructions
+        //Giving instructions to the user
         printf("Usage: scheduler task_list_file [FCFS|RR|SRTF] [time_quantum]\n");
         return EXIT_FAILURE;
     } else {
@@ -57,9 +57,11 @@ int main(int argc, char *argv[]) {
     printf("Press any key to continue ...");
     getchar();
     fclose(fp);
-    printf("==================================================================\n");
-
-    //Scheduling
+    printf("-----------------------------------------------------------------\n");
+    
+    /**************************************************************
+    Scheduling
+    **************************************************************/
     if (strcmp(argv[2], "FCFS") == 0) {
         fcfs_policy(task_array, stats_array, count);
     } else if (strcmp(argv[2], "RR") == 0) {
